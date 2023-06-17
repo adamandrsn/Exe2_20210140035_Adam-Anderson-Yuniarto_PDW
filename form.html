@@ -1,4 +1,6 @@
 <link rel="stylesheet" href="style_form.css">
+<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+<title>Exe2_20210140035_Adam Anderson Yuniarto</title>
 <body>
     <div class="container">
         <div class="header">
@@ -11,13 +13,13 @@
             <input type="text" placeholder="ID anda" id="ID"><br>
         
             <p>Jenis Tiket:</p>
-            <input type="radio" name="peminatan" id="JenisTiket" value="JenisTiket">
+            <input type="radio" name="JenisTiket" id="Reguler" value="Reguler">
             <label for="JenisTiket">Reguler</label> <br>
-            <input type="radio" name="peminatan" id="desain" value="desain">
+            <input type="radio" name="JenisTiket" id="VIP" value="VIP">
             <label for="JenisTiket">VIP</label> <br>
-            <input type="radio" name="peminatan" id="jaringan" value="jaringan">
+            <input type="radio" name="JenisTiket" id="VVIP" value="VVIP">
             <label for="JenisTiket">VVIP</label><br>
-            <input type="radio" name="peminatan" id="data" value="data">
+            <input type="radio" name="JenisTiket" id="OnSide" value="On Side">
             <label for="JenisTiket">On Side</label><br><br>
         
             <label for="Alamat">Alamat</label><br>
@@ -34,13 +36,12 @@
             <label for="TanggalLahir">Tanggal Lahir</label><br>
             <input type="date" id="TanggalLahir"><br><br>
             
-            <button type="submit" onclick="kirimData()">Kirim</button>    
+            <button type="submit" onclick="kirimData()">Kirim</button>   
         </form>
     </div>
     <a href="home.html" class="fixed-button">
         <button style="font-size: 18px;">Home</button>
     </a>    
-    
-<script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 </html>
