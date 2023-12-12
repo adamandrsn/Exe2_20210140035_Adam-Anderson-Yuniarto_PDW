@@ -1,13 +1,15 @@
-body{
+body {
     background-image: url(https://e1.pxfuel.com/desktop-wallpaper/1003/315/desktop-wallpaper-6-adtr-neck-deep.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-h1{
+
+h1 {
     font-family: 'Sedgwick Ave Display', cursive;
 }
-h2{
+
+h2 {
     font-size: 20px;
     font-family: 'Sedgwick Ave Display', cursive;
     letter-spacing: 1px;
@@ -21,6 +23,7 @@ h2{
     padding: 3px 10px;
     cursor: pointer;
 }
+
 .fixed-button {
     position: fixed;
     bottom: 20px;
